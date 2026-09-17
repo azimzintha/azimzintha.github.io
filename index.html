@@ -1061,7 +1061,9 @@
 
             <!-- Interactive Quick Message Box -->
             <div class="contact-right">
-              <form class="contact-form" id="contactForm">
+              <form class="contact-form" id="contactForm" name="contact" method="POST" data-netlify="true">
+                <input type="hidden" name="form-name" value="contact" />
+                  
                 <div class="form-header">
                   <h3>Direct Inquiry Form</h3>
                   <p>Send a quick note or meeting request.</p>
@@ -1069,12 +1071,12 @@
 
                 <div class="form-group">
                   <label for="senderName">Your Name</label>
-                  <input type="text" id="senderName" class="form-input" placeholder="e.g. Sarah Jenkins / Recruiter" required>
+                  <input type="text" id="senderName" class="form-input" placeholder="e.g. Abdul Azim / Recruiter" required>
                 </div>
 
                 <div class="form-group">
                   <label for="senderEmail">Your Email or Phone</label>
-                  <input type="text" id="senderEmail" class="form-input" placeholder="e.g. sarah@company.com or +1..." required>
+                  <input type="text" id="senderEmail" class="form-input" placeholder="e.g. clickmestudios@.com or +1..." required>
                 </div>
 
                 <div class="form-group">
