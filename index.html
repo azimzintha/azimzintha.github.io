@@ -1071,17 +1071,17 @@
 
                 <div class="form-group">
                   <label for="senderName">Your Name</label>
-                  <input type="text" id="senderName" class="form-input" placeholder="e.g. Abdul Azim / Recruiter" required>
+                  <input type="text" id="senderName" name="name" class="form-input" placeholder="e.g. Abdul Azim / Recruiter" required>
                 </div>
 
                 <div class="form-group">
                   <label for="senderEmail">Your Email or Phone</label>
-                  <input type="text" id="senderEmail" class="form-input" placeholder="e.g. clickmestudios@.com or +1..." required>
+                  <input type="text" id="senderEmail" name="email" class="form-input" placeholder="e.g. clickmestudios@.com or +1..." required>
                 </div>
 
                 <div class="form-group">
                   <label for="collaborationType">Interest Area</label>
-                  <select id="collaborationType" class="form-input form-select">
+                  <select id="collaborationType" name="collaborationType" class="form-input form-select">
                     <option value="AI / Machine Learning Engineering">AI / Machine Learning Engineering</option>
                     <option value="Web Development & Frontend">Web Development &amp; Frontend</option>
                     <option value="Click Me Photography & Cinematography">Click Me Photography &amp; Cinematography</option>
@@ -1092,8 +1092,7 @@
 
                 <div class="form-group">
                   <label for="senderMessage">Message</label>
-                  <textarea id="senderMessage" class="form-input form-textarea" rows="4" placeholder="Tell Azim Zintha about your project or opportunity..." required></textarea>
-                </div>
+                  <textarea id="senderMessage" name="message" class="form-input form-textarea" rows="4" placeholder="Tell Azim Zintha about your project or opportunity..." required></textarea>
 
                 <button type="submit" class="btn btn-blue-pill form-submit-btn">
                   <span>Transmit Message</span>
